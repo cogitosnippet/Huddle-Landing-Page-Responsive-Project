@@ -158,14 +158,24 @@ button:hover{
 
   .bottom{
     align-self: center;
+    width: auto;
+    height: auto;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+
+  .icon-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 0px;
+    margin-right: 0px;
   }
 
   button{
     margin-bottom: 20px;
     padding: 10px 65px 10px 65px;
   }
-
-
 
 
 }
